@@ -2,7 +2,7 @@
 
 This game board has tiles like in chess board crossing one side of the board to the other. While crossing the board player must avoid moving to mine tile. 
 
-## features:
+## Features:
 
 1. The game is designed 2D array of tiles i.e. X,Y axis to form chessboard kind of a Minefield.
 1. Hidden mines are allocated randomly on tiles.
@@ -12,7 +12,7 @@ This game board has tiles like in chess board crossing one side of the board to 
 1. Board size and mines quantity are configurable.
 
 
-# Note:
+## Note:
 
 1. Assuming total number tiles of n=8, i.e. 8 x 8 as like Chess Board
 1. Total number of mines n-1 = 7
