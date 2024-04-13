@@ -1,20 +1,19 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Minefield Board 
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+This game board has tiles like in chess board crossing one side of the board to the other. While crossing the board player must avoid moving to mine tile. 
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## features:
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+1. The game is designed 2D array of tiles i.e. X,Y axis to form chessboard kind of a Minefield.
+1. Hidden mines are allocated randomly on tiles.
+1. Player is starting from the bottom of the board to other side of the board. 
+1. Console log displays current position, number of moves taken, number of lives left, navigation path etc.
+1. Control or play using Up, Down, Right and Left arrows, Enter for Restrat and Esc for closing. 
+1. Board size and mines quantity are configurable.
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+
+# Note:
+
+1. Assuming total number tiles of n=8, i.e. 8 x 8 as like Chess Board
+1. Total number of mines n-1 = 7
+1. Total number of lives is 3
